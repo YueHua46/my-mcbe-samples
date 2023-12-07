@@ -1,0 +1,17 @@
+{
+    "format_version":"1.20.50", // Minecraft的版本号
+    "custom:dice":{ // 自定义的 方块标识符
+        "textures":{ // 定义方块的各个面的纹理
+            "up":"die_1", // 上面的纹理
+            "down":"die_2", // 下面的纹理
+            "north":"die_3", // 北面的纹理
+            "south":"die_4", // 南面的纹理
+            "east":"die_5", // 东面的纹理
+            "west":"die_6" // 西面的纹理
+        },
+        "carried_textures":"die_red", // 当方块被携带时的纹理
+        "isotropic": true, // 是否各向同性，如果为true，方块的纹理在所有方向上都是相同的
+        "brightness_gamma": 1, // 方块的亮度
+        "sound": "stone" // 方块的音效
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "format_version": 2,
+    // 行为包的标头部分（用于描述行为包的基本信息）
+    "header": {
+        // 行为包的描述
+        "description": "骰子行为包",
+        // 行为包的名称
+        "name": "Dice Bp Pack",
+        // 行为包的 UUID
+        "uuid": "72ead738-6d2f-44fc-aef6-c30ed2e865f1",
+        // 行为包版本
+        "version": [
+            1,
+            0,
+            0
+        ],
+        // 行为包兼容的最低游戏版本
+        "min_engine_version": [
+            1,
+            20,
+            50
+        ]
+    },
+    "modules": [ 
+        { 
+        "description": "Demo Behavior Pack", 
+        "type": "data", 
+        "uuid": "791212cd-53c5-49de-acb3-19abecb2e0be", 
+        "version": [ 1, 0, 0 ] 
+        } 
+    ], 
+    // 依赖的资源包
+    "dependencies": [
+        {
+            // 对应resource中manifest.json 的标头部分的 UUID（这样就会依赖于指定资源包）
+            "uuid":"7b59d1ad-4e04-4197-8deb-9a17e6908e77",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

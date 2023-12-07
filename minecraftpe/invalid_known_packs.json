@@ -1,0 +1,16 @@
+
+[
+	
+	{
+		"file_version" : 2
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "EmOcP543Os/5vJmpqM71vsndvKcbS9b+f5ZnwcIRHKs=" ],
+		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_behavior_packs/dice_bp",
+		"uuid" : "00000000-0000-0000-0000-000000000000",
+		"version" : "0.0.0"
+	}
+]

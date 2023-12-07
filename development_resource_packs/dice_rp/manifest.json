@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "这是一个骰子资源包",
+      "name": "Dice Resource Pack",
+      "uuid": "7b59d1ad-4e04-4197-8deb-9a17e6908e77",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 20, 50]
+     },
+    "modules": [
+      {
+        "description": "dice rp Add-On!",
+        "type": "resources",
+        "uuid": "0a7166da-514d-4e91-8c12-3d9a2950678b",
+        "version": [1, 0, 0]
+      }
+    ]
+   }

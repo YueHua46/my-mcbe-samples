@@ -6,31 +6,16 @@
 	},
 	
 	{
-		"file_system" : "InAppPackage",
-		"path" : "resource_packs/vanilla_trial",
-		"uuid" : "bd264cd8-8969-4e5e-865a-21096f5ad838",
-		"version" : "0.0.1"
-	},
-	
-	{
-		"file_system" : "InAppPackage",
-		"path" : "behavior_packs/vanilla_1.18.0",
-		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
-		"version" : "1.18.0"
-	},
-	
-	{
 		"file_system" : "RawPath",
-		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/treatments/treatment_packs2/lFNxZdtfAQA=",
-		"uuid" : "a818fdff-6f48-4e52-b56a-58378f66e260",
-		"version" : "1.0.1"
-	},
-	
-	{
-		"file_system" : "RawPath",
-		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/treatments/treatment_packs2/bVNxZfzGAAA=",
-		"uuid" : "5d73852a-9586-40ad-b79a-86f090fc91d7",
-		"version" : "1.0.1"
+		"from_disk" : true,
+		"hashes" : 
+		[
+			"IBWjKuEEIZtn5hTky4d0vlqKj9N1iObfSSHuabxFHWQ=",
+			"3uuKnNXo0I3ZvR1ctiMHYhFC9DVyW6Xg0Tu8448oFvI="
+		],
+		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_resource_packs/dice_rp",
+		"uuid" : "7b59d1ad-4e04-4197-8deb-9a17e6908e77",
+		"version" : "1.0.0"
 	},
 	
 	{
@@ -78,10 +63,79 @@
 	{
 		"file_system" : "RawPath",
 		"from_disk" : true,
-		"hashes" : [ "hYXjtt5d2PdYSG6uqqO++RnvAL56rNHGnhKFstlW4bY=" ],
+		"hashes" : 
+		[
+			"hYXjtt5d2PdYSG6uqqO++RnvAL56rNHGnhKFstlW4bY=",
+			"/2/+Oc5CCc3ouXpyrQEbpkTRjWglf8SWANCaZU6i/HM="
+		],
 		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_resource_packs/resource_pack_sample",
 		"uuid" : "f792a765-6eec-47e1-baea-599424fec93d",
 		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : 
+		[
+			"SXNXbgRkJGkPkneeoljk57BHymCIR22HaFJ8QDcMPD4=",
+			"EmOcP543Os/5vJmpqM71vsndvKcbS9b+f5ZnwcIRHKs=",
+			"H5hm0KbooaIFtapgni+dM2Npb1bO6mw10jUclyf5RRI="
+		],
+		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_behavior_packs/dice_bp",
+		"uuid" : "72ead738-6d2f-44fc-aef6-c30ed2e865f1",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "InAppPackage",
+		"path" : "resource_packs/vanilla_1.17.10",
+		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
+		"version" : "1.17.10"
+	},
+	
+	{
+		"file_system" : "InAppPackage",
+		"path" : "resource_packs/vanilla_1.19.70",
+		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
+		"version" : "1.19.70"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : [ "EtR3tXK3RpHCHwcZ9Q66ZXzHRioRkMAJIGHXLbYDNk8=" ],
+		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_behavior_packs/MY_BEHAVIOR_SAMPLE_PACK",
+		"uuid" : "1202c394-8e1b-463f-b30c-79d699d3057a",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "InAppPackage",
+		"path" : "resource_packs/vanilla_trial",
+		"uuid" : "bd264cd8-8969-4e5e-865a-21096f5ad838",
+		"version" : "0.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/treatments/treatment_packs2/bVNxZfzGAAA=",
+		"uuid" : "5d73852a-9586-40ad-b79a-86f090fc91d7",
+		"version" : "1.0.1"
+	},
+	
+	{
+		"file_system" : "InAppPackage",
+		"path" : "behavior_packs/vanilla_1.18.0",
+		"uuid" : "fe9f8597-5454-481a-8730-8d070a8e2e58",
+		"version" : "1.18.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/treatments/treatment_packs2/lFNxZdtfAQA=",
+		"uuid" : "a818fdff-6f48-4e52-b56a-58378f66e260",
+		"version" : "1.0.1"
 	},
 	
 	{
@@ -425,20 +479,6 @@
 		"path" : "resource_packs/vanilla_1.17.0",
 		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
 		"version" : "1.17.0"
-	},
-	
-	{
-		"file_system" : "InAppPackage",
-		"path" : "resource_packs/vanilla_1.17.10",
-		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
-		"version" : "1.17.10"
-	},
-	
-	{
-		"file_system" : "InAppPackage",
-		"path" : "resource_packs/vanilla_1.19.70",
-		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
-		"version" : "1.19.70"
 	},
 	
 	{

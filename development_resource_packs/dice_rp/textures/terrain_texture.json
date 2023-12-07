@@ -1,0 +1,16 @@
+{
+    // terrain_texture.json 的主要功能是定义和配置游戏中的方块纹理
+    "resource_pack_name": "Dice Pack", // 资源包的名称
+    "texture_name": "atlas.terrain", // 纹理的名称
+    "padding": 8, // 纹理间的间距
+    "num_mip_levels": 4, // Mipmap级别，用于在远处查看纹理时进行性能优化
+    "texture_data": { // 定义纹理数据
+        "die_1":{"textures":"textures/blocks/die_1"}, // 定义die_1的纹理路径
+        "die_2":{"textures":"textures/blocks/die_2"}, // 定义die_2的纹理路径
+        "die_3":{"textures":"textures/blocks/die_3"}, // 定义die_3的纹理路径
+        "die_4":{"textures":"textures/blocks/die_4"}, // 定义die_4的纹理路径
+        "die_5":{"textures":"textures/blocks/die_5"}, // 定义die_5的纹理路径
+        "die_6":{"textures":"textures/blocks/die_6"}, // 定义die_6的纹理路径
+        "die_red":{"textures":"textures/blocks/die_red"} // 定义die_red的纹理路径
+    }
+}
