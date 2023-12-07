@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "custom_item_bp",
+        "description": "自定义物品行为包",
+        "uuid": "73b7222d-d9d4-4d1f-bfbd-9545fe3eca21",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            50
+        ]
+    },
+    "modules": [
+        {
+            "description": "自定义物品行为包",
+            "type": "data",
+            "uuid": "dd034100-612e-4e73-a8a0-3ba330beb717",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

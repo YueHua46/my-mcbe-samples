@@ -1,0 +1,34 @@
+{
+    // 预期的游戏格式版本
+    "format_version": "1.20.50",
+    // 定义物品
+    "minecraft:item": {
+        // 物品描述
+      "description": {
+        // 物品标识符
+        "identifier": "custom:wrench",
+        // 物品分类
+        "category": "Items"
+      },
+      // 物品组件（可理解为物品属性）
+      "components": {
+        // 物品最大堆叠数量（默认为64）
+        "minecraft:max_stack_size": 16,
+        // 物品图标
+        "minecraft:icon": {
+            "texture": "custom:wrench"
+        },
+        // 穿戴式属性配置
+        "minecraft:wearable": {
+            // 可穿戴的物品类型
+            "dispensable": true,
+            // 穿戴物品的位置
+            "slot": "slot.weapon.offhand" // 副手
+        },
+        // 物品显示名称属性配置
+        "minecraft:display_name": {
+            "value": "wrench"
+        }
+      }
+    }
+  }

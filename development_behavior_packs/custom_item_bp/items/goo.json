@@ -1,0 +1,27 @@
+{
+    // 预期的游戏格式版本
+    "format_version": "1.20.50",
+    // 定义物品
+    "minecraft:item": {
+        // 物品描述
+      "description": {
+        // 物品标识符
+        "identifier": "custom:goo",
+        // 物品分类
+        "category": "Items"
+      },
+      // 物品组件（可理解为物品属性）
+      "components": {
+        // 物品最大堆叠数量（默认为64）
+        "minecraft:max_stack_size": 16,
+        // 物品图标
+        "minecraft:icon": {
+          "texture": "custom:goo"
+        },
+        // 物品显示名称
+        "minecraft:display_name": {
+          "value": "Weird Goo"
+        }
+      }
+    }
+  }

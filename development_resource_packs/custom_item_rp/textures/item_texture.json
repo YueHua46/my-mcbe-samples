@@ -1,0 +1,13 @@
+{
+    "resource_pack_name": "自定义实体资源包",
+    // 纹理数据
+    "texture_data": {
+        // 定义custom:goo纹理的路径
+      "custom:goo": {
+        "textures": "textures/items/goo"
+      },
+      "custom:wrench":{
+        "textures":"textures/items/wrench_ico"
+      }
+    }
+}

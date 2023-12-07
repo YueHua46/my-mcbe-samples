@@ -1,0 +1,39 @@
+{
+    "format_version": "1.20.50", // 期望的Minecraft版本号
+    "minecraft:geometry": [ // 定义一个几何模型
+        {
+            "description": {
+                "identifier": "geometry.wrench", // 模型的标识符
+                "texture_width": 32, // 纹理的宽度
+                "texture_height": 32, // 纹理的高度
+                "visible_bounds_width": 3, // 可见边界的宽度
+                "visible_bounds_height": 4, // 可见边界的高度
+                "visible_bounds_offset": [0, 1, 0] // 可见边界的偏移量
+            },
+            "bones": [ // 定义模型的骨骼
+                {
+                    "name": "bb_main", // 骨骼的名称
+                    "pivot": [0.1, 19, -6], // 骨骼的旋转中心点
+                    "rotation": [125, 0, 0], // 骨骼的旋转角度
+                    "binding": "q.item_slot_to_bone_name(context.item_slot)", // 骨骼的绑定规则
+                    "cubes": [ // 定义骨骼的立方体
+                        // 定义一个立方体，包括其原点、大小和纹理坐标
+                        {"origin": [-0.9, 9, -8], "size": [2, 16, 3], "uv": [0, 13]}, 
+                        {"origin": [-0.9, 25, -11], "size": [2, 4, 9], "uv": [0, 0]},
+                        {"origin": [-0.9, 29, -5], "size": [2, 2, 3], "uv": [13, 0]},
+                        {"origin": [-0.9, 29, -11], "size": [2, 1, 3], "uv": [10, 13]},
+                        {"origin": [-0.9, 30, -10], "size": [2, 1, 2], "uv": [10, 17]},
+                        {"origin": [-0.9, 31, -5], "size": [2, 1, 3], "uv": [13, 5]},
+                        {"origin": [-0.9, 32, -5], "size": [2, 1, 2], "uv": [0, 6]},
+                        {"origin": [-0.9, 31, -9], "size": [2, 1, 1], "uv": [17, 19]},
+                        {"origin": [-0.9, 33, -5], "size": [2, 1, 1], "uv": [16, 17]},
+                        {"origin": [-0.9, 24, -5], "size": [2, 1, 2], "uv": [0, 3]},
+                        {"origin": [-0.9, 24, -10], "size": [2, 1, 2], "uv": [0, 0]},
+                        {"origin": [-0.9, 23, -5], "size": [2, 1, 1], "uv": [17, 13]},
+                        {"origin": [-0.9, 23, -9], "size": [2, 1, 1], "uv": [7, 13]}
+                    ]
+                }
+            ]
+        }
+    ]
+}

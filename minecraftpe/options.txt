@@ -227,7 +227,7 @@ do_not_show_multiplayer_online_safety_warning:1
 only_show_trusted_skins:1
 camera_shake:1
 dev_transport_layer_type:0
-gfx_gui_accessibility_scaling:0
+gfx_gui_accessibility_scaling:1
 gfx_raytracing:1
 raytracing_viewdistance:8
 deferred_viewdistance:8
@@ -313,7 +313,7 @@ emoteChat:1
 has_dismissed_new_player_flow:0
 new_player_flow_abc_test_group:0
 app_launched_count:8
-ctrl_improvedInputResponse:0
+ctrl_improvedInputResponse:1
 gfx_debug_trace:0
 xbl_use_remote_connect:0
 gamepadMappingVersion:1

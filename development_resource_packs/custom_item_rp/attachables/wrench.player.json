@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.50", // 期望的Minecraft的版本号
+    "minecraft:attachable": { // 定义一个可附着的物品
+      "description": {
+        "identifier": "custom:wrench", // 物品的标识符
+        "item": { "custom:wrench": "query.is_owner_identifier_any('minecraft:player')" }, // 定义物品的所有者
+        "materials": { // 定义物品的材质
+          "default": "entity", // 默认材质：实体
+          "enchanted": "entity_alphatest_glint" // 附魔后的材质（实体，带透明度的闪烁）
+        },
+        "textures": { // 定义物品的纹理
+          "default": "textures/items/wrench", // 默认纹理
+          "enchanted": "textures/misc/enchanted_item_glint" // 附魔后的纹理
+        },
+        "geometry": { // 定义物品的几何形状
+          "default": "geometry.wrench" // 默认几何形状为：wrench
+        },
+        "animations": { // 定义物品的动画
+          "hold_first_person": "animation.steve_head.hold_first_person", // 第一人称持有时的动画
+          "hold_third_person": "animation.steve_head.hold_third_person" // 第三人称持有时的动画
+        },
+        "scripts": { // 定义物品的脚本
+          "animate": [ // 定义动画脚本
+            {
+              "hold_first_person": "context.is_first_person == 1.0" // 当处于第一人称视角时，执行第一人称持有动画
+            },
+            {
+              "hold_third_person": "context.is_first_person == 0.0" // 当处于第三人称视角时，执行第三人称持有动画
+            }
+          ]
+        },
+        "render_controllers": ["controller.render.item_default"] // 定义物品的渲染控制器
+      }
+    }
+}
