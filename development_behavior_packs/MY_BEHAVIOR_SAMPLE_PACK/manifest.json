@@ -1,0 +1,49 @@
+{
+    "format_version": 2,
+    // 行为包的标头部分（用于描述行为包的基本信息）
+    "header": {
+        // 行为包的描述
+        "description": "我的攻击牛行为示例包",
+        // 行为包的名称
+        "name": "My Behavior Pack",
+        // 行为包的 UUID
+        "uuid": "1202c394-8e1b-463f-b30c-79d699d3057a",
+        // 行为包版本
+        "version": [
+            1,
+            0,
+            0
+        ],
+        // 行为包兼容的最低游戏版本
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ]
+    },
+    // 行为包
+    "modules": [
+        {
+            "description": "我的第一个Add-On!（附加组件）",
+            "type": "data",
+            "uuid": "9217b0e9-ff6d-4326-a2de-251b7a856b29",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    // 依赖的资源包
+    "dependencies": [
+        {
+            // My_RESOURCE_Pack中 manifest.json 的标头部分的 UUID（这样就会依赖于 My_RESOURCE_Pack 资源包）
+            "uuid":"f792a765-6eec-47e1-baea-599424fec93d",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
