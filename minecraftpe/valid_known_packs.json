@@ -27,6 +27,13 @@
 	
 	{
 		"file_system" : "RawPath",
+		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/treatments/treatment_packs2/llNxZURoAQA=",
+		"uuid" : "0becd059-6769-4d70-91d1-2f0b3bd63648",
+		"version" : "1.0.1"
+	},
+	
+	{
+		"file_system" : "RawPath",
 		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/treatments/treatment_packs2/bVNxZWrGAAA=",
 		"uuid" : "0a165dd3-4c5d-4c64-9bd6-e5953f47ea07",
 		"version" : "1.0.8"
@@ -34,8 +41,8 @@
 	
 	{
 		"file_system" : "RawPath",
-		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/treatments/treatment_packs2/llNxZURoAQA=",
-		"uuid" : "0becd059-6769-4d70-91d1-2f0b3bd63648",
+		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/treatments/treatment_packs2/kVNxZWdSAQA=",
+		"uuid" : "88628f47-e821-4d1d-b4f8-13e5f6fdd6f0",
 		"version" : "1.0.1"
 	},
 	
@@ -47,10 +54,23 @@
 	},
 	
 	{
+		"file_system" : "InAppPackage",
+		"path" : "resource_packs/vanilla_music",
+		"uuid" : "6989c411-4355-4756-9163-51c1df5ef677",
+		"version" : "0.0.1"
+	},
+	
+	{
 		"file_system" : "RawPath",
-		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/treatments/treatment_packs2/kVNxZWdSAQA=",
-		"uuid" : "88628f47-e821-4d1d-b4f8-13e5f6fdd6f0",
-		"version" : "1.0.1"
+		"from_disk" : true,
+		"hashes" : 
+		[
+			"c68OGB4vR0dxDa+Lg4P5Iw/+QFJM6mS1zi2SQdqyc6U=",
+			"z9Bm8X4jxQKTzWJeUJIh1cWsvJz/QrzUCYBsieuuyIw="
+		],
+		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_resource_packs/custom_item_rp",
+		"uuid" : "dd034100-612e-4e73-a8a0-3ba330beb717",
+		"version" : "1.0.0"
 	},
 	
 	{
@@ -75,6 +95,13 @@
 	
 	{
 		"file_system" : "RawPath",
+		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/cdn/DrVyZd+nAAA=",
+		"uuid" : "32fee84b-5b63-45f6-bf93-b8547c531994",
+		"version" : "0.0.3"
+	},
+	
+	{
+		"file_system" : "RawPath",
 		"from_disk" : true,
 		"hashes" : 
 		[
@@ -84,6 +111,26 @@
 		],
 		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_behavior_packs/dice_bp",
 		"uuid" : "72ead738-6d2f-44fc-aef6-c30ed2e865f1",
+		"version" : "1.0.0"
+	},
+	
+	{
+		"file_system" : "InAppPackage",
+		"path" : "resource_packs/vanilla_1.17.0",
+		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
+		"version" : "1.17.0"
+	},
+	
+	{
+		"file_system" : "RawPath",
+		"from_disk" : true,
+		"hashes" : 
+		[
+			"V+lbpypkBcuS+aqXr1B0TxTloOSextXENBGYBufjYoo=",
+			"CPOUh4oKKii49GhshCc6AVkz1qVFhFmOY35l0Q4S/bY="
+		],
+		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_behavior_packs/custom_item_bp",
+		"uuid" : "73b7222d-d9d4-4d1f-bfbd-9545fe3eca21",
 		"version" : "1.0.0"
 	},
 	
@@ -286,13 +333,6 @@
 	},
 	
 	{
-		"file_system" : "RawPath",
-		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/treatments/treatment_packs2/klNxZdVYAQA=",
-		"uuid" : "e680e812-c0fc-4562-8f9d-0fcadd9be9f2",
-		"version" : "1.0.2"
-	},
-	
-	{
 		"file_system" : "InAppPackage",
 		"path" : "resource_packs/vanilla_1.17.40",
 		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
@@ -300,10 +340,10 @@
 	},
 	
 	{
-		"file_system" : "InAppPackage",
-		"path" : "resource_packs/vanilla_1.19.20",
-		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
-		"version" : "1.19.20"
+		"file_system" : "RawPath",
+		"path" : "C:/Users/yuehua/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/treatments/treatment_packs2/klNxZdVYAQA=",
+		"uuid" : "e680e812-c0fc-4562-8f9d-0fcadd9be9f2",
+		"version" : "1.0.2"
 	},
 	
 	{
@@ -420,13 +460,6 @@
 	
 	{
 		"file_system" : "InAppPackage",
-		"path" : "resource_packs/vanilla_music",
-		"uuid" : "6989c411-4355-4756-9163-51c1df5ef677",
-		"version" : "0.0.1"
-	},
-	
-	{
-		"file_system" : "InAppPackage",
 		"path" : "resource_packs/vanilla_base",
 		"uuid" : "9ae3d2cc-7811-404c-b578-cb27689c8ac5",
 		"version" : "0.0.1"
@@ -476,13 +509,6 @@
 	
 	{
 		"file_system" : "InAppPackage",
-		"path" : "resource_packs/vanilla_1.17.0",
-		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
-		"version" : "1.17.0"
-	},
-	
-	{
-		"file_system" : "InAppPackage",
 		"path" : "resource_packs/vanilla_1.17.20",
 		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
 		"version" : "1.17.20"
@@ -497,6 +523,13 @@
 	
 	{
 		"file_system" : "InAppPackage",
+		"path" : "resource_packs/vanilla_1.19.50",
+		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
+		"version" : "1.19.50"
+	},
+	
+	{
+		"file_system" : "InAppPackage",
 		"path" : "resource_packs/vanilla_1.17.30",
 		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
 		"version" : "1.17.30"
@@ -504,9 +537,9 @@
 	
 	{
 		"file_system" : "InAppPackage",
-		"path" : "resource_packs/vanilla_1.19.50",
+		"path" : "resource_packs/vanilla_1.19.20",
 		"uuid" : "0575c61f-a5da-4b7f-9961-ffda2908861e",
-		"version" : "1.19.50"
+		"version" : "1.19.20"
 	},
 	
 	{

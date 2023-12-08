@@ -2,7 +2,7 @@
     "format_version": 2,
     "header": {
         "name": "custom_item_bp",
-        "description": "自定义物品行为包",
+        "description": "我的自定义物品行为包",
         "uuid": "73b7222d-d9d4-4d1f-bfbd-9545fe3eca21",
         "version": [
             1,

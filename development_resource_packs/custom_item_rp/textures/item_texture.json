@@ -8,6 +8,9 @@
       },
       "custom:wrench":{
         "textures":"textures/items/wrench_ico"
+      },
+      "custom:crown":{
+        "textures":"textures/items/crown_ico"
       }
     }
 }

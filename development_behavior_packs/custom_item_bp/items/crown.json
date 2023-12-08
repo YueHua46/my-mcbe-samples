@@ -1,0 +1,64 @@
+{
+    // 预期的游戏格式版本
+    "format_version": "1.20.50",
+    // 定义物品
+    "minecraft:item": {
+        // 物品描述
+      "description": {
+        // 物品标识符
+        "identifier": "custom:crown",
+        // 物品分类
+        "category": "Equipment"
+      },
+      // 物品组件（可理解为物品属性）
+      "components": {
+        // 物品最大堆叠数量（默认为64）
+        "minecraft:max_stack_size": 1,
+        // 物品图标
+        "minecraft:icon": {
+            "texture": "custom:crown"
+        },
+        // 穿戴式属性配置
+        "minecraft:wearable": {
+            // 可穿戴的物品类型
+            "dispensable": true,
+            // 穿戴物品的位置
+            "slot": "slot.armor.head" // 头盔类型
+        },
+        // 物品显示名称属性配置
+        "minecraft:display_name": {
+            "value": "tile.custom:crown.name"
+        },
+        // 是否可在创作模式下点击攻击按钮破坏方块
+        "minecraft:can_destroy_in_creative":{
+          "value": false
+        },
+        // 耐久度配置
+        "minecraft:durability": {
+          // // 伤害几率
+          // "damage_chance": {
+          //  "min": 5,
+          //  "max": 10 
+          // },
+          "max_durability": 500
+        },
+        // 可修复物品组件：该物品可以修复多少损坏，哪些物品可以修复它.
+        "minecraft:repairable": {
+          
+        },
+        // 防具属性配置
+        "minecraft:armor": {
+          // 盔甲物品有多少防护能力.
+          "protection": 20,
+          // 应用于盔甲的纹理类型
+          "texture_type": "netherite"
+        },
+        // 附魔属性
+        "minecraft:enchantable":{
+          // 附魔属性类型
+          "slot":"armor_torso",
+          "value": 15
+        }
+      }
+    }
+  }

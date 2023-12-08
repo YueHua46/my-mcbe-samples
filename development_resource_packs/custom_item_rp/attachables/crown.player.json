@@ -1,0 +1,37 @@
+{
+    "format_version": "1.20.50", // 期望的Minecraft的版本号
+    "minecraft:attachable": { // 定义一个可附着的物品
+      "description": {
+        "identifier": "custom:crown", // 物品的标识符
+        "item": { "custom:crown": "query.is_owner_identifier_any('minecraft:player')" }, // 定义物品的所有者
+        "materials": { // 定义物品的材质
+          "default": "armor", // 默认材质：盔甲
+          "enchanted": "armor_enchated" // 附魔后的材质（实体，带透明度的闪烁）
+        },
+        "textures": { // 定义物品的纹理
+          "default": "textures/items/crown", // 默认纹理
+          "enchanted": "textures/misc/enchanted_item_glint" // 附魔后的纹理
+        },
+        "geometry": { // 定义物品的几何形状
+          "default": "geometry.crown" // 默认几何形状为：crown
+        },
+        "animations": { // 定义物品的动画
+          "hold_first_person": "animation.steve_head.hold_first_person", // 第一人称持有时的动画
+          "hold_third_person": "animation.steve_head.hold_third_person" // 第三人称持有时的动画
+        },
+        "scripts": { // 定义物品的脚本
+          "animate": [ // 定义动画脚本
+            {
+              "hold_first_person": "context.is_first_person == 1.0" // 当处于第一人称视角时，执行第一人称持有动画
+            },
+            {
+              "hold_third_person": "context.is_first_person == 0.0" // 当处于第三人称视角时，执行第三人称持有动画
+            }
+          ],
+          // 父对象（这里指的是玩家或其他实体）装备这个可附着物品（这里是"crown"）时执行一些设置。
+          "parent_setup":"variable.helmet_layer_visible = 0.0;" // 避免头盔和"crown"同时显示，造成视觉上的冲突。
+        },
+        "render_controllers": ["controller.render.item_default"] // 定义物品的渲染控制器
+      }
+    }
+}
